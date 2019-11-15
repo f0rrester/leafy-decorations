@@ -6,6 +6,7 @@ html {
   background-image: url("../images/leaf-bg.svg");
   background-repeat: repeat;
   background-color: #588477;
+  color: #fff
 
 }
 
@@ -32,15 +33,23 @@ html {
   color: #2d5a4d;
   background-size: 60%;
   background-position: top right;
-
 }
 
 .banner {
-
+  background-image:
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 70%),
+    url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size: cover;
+  background-position: bottom center;
+  border-bottom: 3px solid #145b1d;
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
 }
 
 @media only screen and (min-width: 60em) {
