@@ -32,7 +32,7 @@ html {
   background-color: #fff;
   background-repeat: no-repeat;
   color: #2d5a4d;
-  background-size: 60%;
+  background-size: 55%;
   background-position: top right;
 }
 
@@ -45,12 +45,15 @@ html {
   background-size: cover;
   background-position: bottom center;
   border-bottom: 3px solid #145b1d;
+  padding: 160px;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 100px;
+  padding-top: 140px;
+  padding-left: 1em;
 }
 
 @media only screen and (min-width: 60em) {
